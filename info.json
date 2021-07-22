@@ -1,0 +1,14 @@
+{
+  "name": "DogeformingMars",
+  "version": "0.0.1",
+  "title": "Dogeforming Mars",
+  "author": "Don Boobleone",
+  "contact": "donboobleone@gmail.com",
+  "homepage": "",
+  "description": "You are an android designed to survive Mars conditions and to plant the first seeds of civilization. The landing was unsuccessful, your mission is to start the industry and build Starbase City -  Mars.",
+  "factorio_version": "1.1",
+  "dependencies": ["base"],
+  "package": {
+    "ignore": [".git", ".github", ".vscode", ".kakrc"]
+  }
+}

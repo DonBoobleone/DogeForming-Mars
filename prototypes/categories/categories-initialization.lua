@@ -1,0 +1,1 @@
+require(don_categories_prototypes_path .. "recipe-categories")

@@ -1,2 +1,2 @@
-# DonBoobleone-DogeForming-Mars
-Factorio meme mod
+# DogeForming-Mars
+Opensource doge meme mod for Factorio
