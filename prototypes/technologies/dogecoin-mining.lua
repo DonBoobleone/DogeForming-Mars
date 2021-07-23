@@ -16,6 +16,22 @@ data:extend(
           type = "unlock-recipe",
           recipe = "dogecoin",
         },
+        {
+          type = "unlock-recipe",
+          recipe = "dogerium-conductor",
+        },
+        {
+          type = "unlock-recipe",
+          recipe = "dogerium-transmitter",
+        },
+        {
+          type = "unlock-recipe",
+          recipe = "dogerium-wallet",
+        },
+        {
+          type = "unlock-recipe",
+          recipe = "designated-orbital-grounding-entity",
+        },
       },
       prerequisites = { "electronics" },
       order = "g-e-d",

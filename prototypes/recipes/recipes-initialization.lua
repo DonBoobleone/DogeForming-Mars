@@ -10,6 +10,7 @@
   -- -- New recipes for smelting items
   require(don_recipes_prototypes_path .. "smelting")
   require(don_recipes_prototypes_path .. "dogecoin")
+  require(don_recipes_prototypes_path .. "dogecoin-mining")
   require(don_recipes_prototypes_path .. "dogecoin-mining-rig")
   require(don_recipes_prototypes_path .. "dogecoin-mining-farm")
   require(don_recipes_prototypes_path .. "dogecoin-mining-supercomputer")
