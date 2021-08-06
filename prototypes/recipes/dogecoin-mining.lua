@@ -49,5 +49,40 @@ data:extend({
         },
         result = "designated-orbital-grounding-entity",
       },
-      
+      {
+        type = "recipe",
+        name = "dogecoin-mining-rig",
+        energy_required = 4.2,
+        enabled = false,
+        ingredients = {
+          { "dogerium-plate", 6 },
+          { "electronic-circuit", 9 },
+        },
+        result = "dogecoin-mining-rig",
+      },
+      {
+        type = "recipe",
+        name = "dogecoin-mining-farm",
+        energy_required = 6.9,
+        enabled = false,
+        ingredients = {
+          { "dogerium-plate", 69 },
+          { "advanced-circuit", 42 },
+          { "dogecoin-mining-rig", 5 },
+        },
+        result = "dogecoin-mining-farm",
+      },
+      {
+        type = "recipe",
+        name = "dogecoin-mining-supercomputer",
+        energy_required = 69,
+        enabled = false,
+        ingredients = {
+          { "dogerium-plate", 420 },
+          { "processing-unit", 69 },
+          { "superconductor", 69 },
+          { "concrete", 420 },
+        },
+        result = "dogecoin-mining-supercomputer",
+      },
   })

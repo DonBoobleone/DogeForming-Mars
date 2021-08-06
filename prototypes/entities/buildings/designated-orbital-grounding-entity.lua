@@ -32,6 +32,7 @@ data:extend({
         base_level = 1,
         pipe_connections = {
           { type = "input", position = { 2.0, 0.0 } },
+          { type = "input", position = { -2.0, 0.0 } },
         },
       },
       off_when_no_fluid_recipe = false,
@@ -41,8 +42,8 @@ data:extend({
     --         Crafting       -- 
     ----------------------------
 
-    crafting_categories = { "dogecoin-mining" },
-    crafting_speed = 6.9,
+    crafting_categories = { "dogecoin-spending" },
+    crafting_speed = 1,
     energy_source = 
     {
       type = "electric",
@@ -50,8 +51,6 @@ data:extend({
     },
     energy_usage = "420kW",
     ingredient_count = 0,
-    module_specification = { module_slots = 2, module_info_icon_shift = { 0, 1.2 }, module_info_icon_scale = 1 },
-    allowed_effects = { "consumption", "speed",  },
     
     ----------------------------
     -- Animation and Graphics --
